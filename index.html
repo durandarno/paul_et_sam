@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Le problème de la somme et du produit</title>
+        <script src="fonction.js"></script>
+    </head>
+    <body>		
+		Arnaud donne un problème à résoudre à Paul et Sam.<br/>
+
+Arnaud pense à deux nombres entiers compris entre <span id="min" ></span> et <span id="max" ></span> .<br/>
+
+Il donne à Paul le produit de ces nombres et à Sam la somme de ces mêmes nombres, puis il leur demande s'ils peuvent déterminer quels étaient les nombres de départ sachant qu'ils sont compris entre 2 et 100.<br/>
+
+Paul : Non, je ne peux pas trouver ces deux nombres.<br/>
+
+Sam : Je le savais.<br/>
+
+Paul : Dans ce cas, je connais les deux nombres.<br/>
+
+Sam : Alors moi aussi.<br/>
+
+Pouvez-vous trouver les deux nombres choisis par Arnaud?<br/><br/>
+        	<input type="text" id="x" value="rien"/>
+        	<input type="text" id="y" value="rien"/><br/>
+        	Nombre de possibilités : <span id="nbpossibilite"></span><br/>
+        	
+        	<input onclick="apresphrase1();" type="button" id="bouton1" name="trouver" value="apres phrase 1"/><br/>
+        	<input onclick="apresphrase2();" type="button" id="bouton2" name="trouver" value="apres phrase 2" disabled /><br/>
+        	<input onclick="apresphrase3();" type="button" id="bouton3" name="trouver" value="apres phrase 3" disabled /><br/>
+        	<input onclick="apresphrase4();" type="button" id="bouton4" name="trouver" value="apres phrase 4" disabled /><br/>
+<br/>
+Liste : <span id="liste"></span><br/><br/>
+P : <span id="listep"></span><br/><br/>
+S : <span id="listes"></span>
+    
+    </body>
+    
+    
+    
+</html>
